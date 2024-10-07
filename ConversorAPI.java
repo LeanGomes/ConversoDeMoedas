@@ -7,7 +7,7 @@ import java.net.URL;
 
 public class ConversorAPI {
 
-    private static final String ApiKey = "9bbb5389a1325370416304c6";
+    private static final String ApiKey = "SUA_CHAVE_API";
 
     public static void converterMoeda(String moeda1, String moeda2, double valor) {
 
