@@ -2,7 +2,7 @@
 # Challenge Alura One ![logoAlura](https://github.com/user-attachments/assets/fad5494d-9102-46f4-8fb1-00a26c20f626)
 
 
-Conversor de moedas Java back-end -  Alura One. O projeto utiliza a linguagem de programação Java, assim com a API "Exchange Rate API" para utilizar as taxas de câmbio em tempo real.
+Conversor de moedas Java back-end -  Alura One. O projeto utiliza a linguagem de programação Java, assim com a API "Exchange Rate API" para requisição das taxas de câmbio em tempo real.
 
 ## Tecnologias utilizadas:
 
@@ -10,20 +10,25 @@ Conversor de moedas Java back-end -  Alura One. O projeto utiliza a linguagem de
 
 ## Estrutura:
 
+![image](https://github.com/user-attachments/assets/42064d92-76f2-49b8-a2c5-c9d622a3d882)
 
 
 
 ## Clone o repositório:
    ```sh
-   [git@github.com:LeanGomes/ChallengeAlura_One.git](https://github.com/LeanGomes/ConversoDeMoedas.git)
+   [https://github.com/LeanGomes/ConversoDeMoedas.git]
    ```
 
 ## Intruções de uso:
 <ul>
-<li>Digite "exemplo" no campo de entrada.</li>
-<li>Clique em "Criptografar" para transformar o texto.</li>
-<li>Clique em "Copiar" para copiar o texto criptografado.</li>
-<li>Cole o texto criptografado e clique em "Descriptografar" para reverter a transformação.</li>
+           <li> Escolha uma opção para Conversão de Valores:</li>  
+           <li> "1. Dólar para Euro"
+           <li> "2. Euro para Dolar"
+           <li> "3. Real para Dólar"
+           <li> "4. Dolar para Real"
+           <li>"5. Real para Peso Argentino"
+           <li>"6. Peso Argentino para Real"
+           <li>"7. Sair"
 </ul>
 
 
