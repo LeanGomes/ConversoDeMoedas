@@ -7,11 +7,11 @@ import java.net.URL;
 
 public class ConversorAPI {
 
-    private static final String ApiKey = "SUA_CHAVE_API";
+    private static final String ApiKey = "Sua_ChaveAPI";
 
     public static void converterMoeda(String moeda1, String moeda2, double valor) {
 
-        try {
+
             try {
                 // Enderaço da API
                 String url_str = "https://v6.exchangerate-api.com/v6/" + ApiKey + "/pair/" + moeda1 + "/" + moeda2;
@@ -46,8 +46,7 @@ public class ConversorAPI {
             } catch (Exception e) {
                 System.out.println("Erro ao realizar a conversão: " + e.getMessage());
             }
-        } finally {
 
         }
     }
-}
+
